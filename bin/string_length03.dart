@@ -13,10 +13,6 @@ void main() {
 }
 
 bool func(String a, b) {
-  if (a.length == b.lenght) {
-    true;
-  } else {
-    false;
-  }
-  return false;
+  bool x = b.length == a.length;
+  return x;
 }

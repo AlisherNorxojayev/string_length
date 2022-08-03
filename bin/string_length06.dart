@@ -13,5 +13,9 @@ void main() {
 }
 
 int func(String s1, String s2) {
-  return s2.length - s1.length;
+  if (s1.length > s2.length) {
+    return s2.length;
+  } else {
+    return s1.length;
+  }
 }

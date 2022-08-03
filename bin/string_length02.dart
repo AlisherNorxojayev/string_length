@@ -12,10 +12,6 @@ void main() {
 }
 
 bool func(String a) {
-  if (a.length % 2 == 0) {
-    true;
-  } else {
-    false;
-  }
-  return false;
+  bool x = a.length % 2 == 0;
+  return x;
 }
