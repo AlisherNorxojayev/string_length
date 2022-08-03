@@ -8,4 +8,9 @@
 
 void main() {
   // write your code here
+  print(func("text"));
+}
+
+int func(String a) {
+  return a.length;
 }
