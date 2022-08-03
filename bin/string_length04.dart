@@ -8,4 +8,9 @@
 */
 void main() {
   // write your code here
+  print(func("Alisher"));
+}
+
+String func(String s) {
+  return "*" * s.length;
 }

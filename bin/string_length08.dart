@@ -9,4 +9,16 @@
 */
 void main() {
   // write your code here
+  print(func("Alisher"));
+}
+
+String func(String s) {
+  int a;
+  if (s.length % 2 == 0) {
+    a = s.length ~/ 2;
+    return s[a] + s[a + 1];
+  } else {
+    a = s.length ~/ 2;
+    return s[a + 1];
+  }
 }

@@ -8,5 +8,9 @@
 */
 
 void main() {
-  // write your code here
+  print(func("alisher"));
+}
+
+String func(String s) {
+  return s.toUpperCase();
 }

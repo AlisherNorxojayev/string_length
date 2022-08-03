@@ -9,4 +9,14 @@
 */
 void main() {
   // write your code here
+  print(func("text", "text"));
+}
+
+bool func(String a, b) {
+  if (a.length == b.lenght) {
+    true;
+  } else {
+    false;
+  }
+  return false;
 }

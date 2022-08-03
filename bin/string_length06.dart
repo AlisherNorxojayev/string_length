@@ -9,4 +9,9 @@
 */
 void main() {
   // write your code here
+  print(func("text", "ID"));
+}
+
+int func(String s1, String s2) {
+  return s2.length - s1.length;
 }

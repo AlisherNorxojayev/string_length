@@ -9,4 +9,9 @@
 */
 void main() {
   // write your code here
+  print(func("Alisher", "text"));
+}
+
+int func(String s1, String s2) {
+  return s2.length + s1.length;
 }
